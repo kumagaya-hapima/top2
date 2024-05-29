@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../zemi/haikei_HP.JPG);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+header .logo {
+    height: 100px;
+    width: 100px;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 29px;
+    font-weight: 600;
+    color:aliceblue;
+    transition: all 0.3s;
+}
+header nav ul li a:hover {
+    color: aquamarine;
+}
+
+
+header nav ul li .contact {
+    display: block;
+    background-color: teal;
+    padding: 10px 20px;
+}
+header nav ul li .about {
+    display: block;
+    background-color: teal;
+    padding: 10px 20px;
+}
+header nav ul li .shop {
+    display: block;
+    background-color: teal;
+    padding: 10px 20px;
+}
+header nav ul li .event {
+    display: block;
+    background-color: teal;
+    padding: 10px 20px;
+}
+header nav ul li .map {
+    display: block;
+    background-color: teal;
+    padding: 10px 20px;
+}
+header nav ul li .news {
+    display: block;
+    background-color: teal;
+    padding: 10px 10px;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+}
+
+main h1{
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.button-area button{
+    padding: 17px 30px;
+    background: rgb(206, 141,98);
+    border: none; 
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button-area button:hover{
+    color:aquamarine;
+}
+
+.button-area .free{
+    margin-right: 30px;
+}
+/*スマホサイズ*/
+@media screen and(max-width:960px){
+    header{
+        width: 100%;
+        display: flex;
+    }
+    
+
+}
